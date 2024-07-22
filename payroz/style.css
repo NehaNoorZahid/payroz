@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    background-image: url(https://i.postimg.cc/YqFd6KWs/1.jpg);;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    font-family: Arial;
+}
+
+.navbar {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    color: #ff7200;
+    font-size: 35px;
+}
+
+div a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 12PX;
+}
+
+a:hover {
+    color: #ff7200;
+}
+
+.search{
+    height: 25px;
+    width: 200px;
+    float: left;
+    background-color: transparent;
+    border: 1px solid #ff7200;
+    color: #fff;
+    border-right: none;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    font-size: 16px;
+}
+
+.searchbtn {
+    height: 26px;
+    width: 100px;
+    background-color: #ff7200;
+    border: 2px solid #ff7200;
+    color: #fff;
+    font-size: 16px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-left: none;
+    border-left: none;
+}
+
+/* Content */
+.content {
+    height: auto;
+    width: 1200px;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+
+.content h1 {
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    color: #000;
+    margin-top: 5%;
+    padding-left: 20px;
+    letter-spacing: 2px;
+}
+.content span {
+    color: #ff7200;
+}
+
+.para {
+    font-family: Arial;
+    color: #fff;
+    padding-left: 20px;
+    line-height: 25px;
+}
+
+.content .joinbtn {
+    height: 40px;
+    width: 120px;
+    margin-left: 20px;
+    margin-top: 10px;
+    background-color: #ff7200;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+}
+
+.joinbtn:hover {
+    background-color: #fff;
+    color: #ff7200;
+    cursor: pointer;
+}
+
+/* login form */
+.form {
+    height: 350px;
+    width: 250px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: 70px;
+    left: 870px;
+    border-radius: 20px;
+    padding: 25px;
+}
+
+.form h2 {
+    width: 230px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #ff7200;
+    font-size: 22px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input {
+    width: 230px;
+    height: 30px;
+    background: transparent;
+    margin-top: 30px;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+.loginbtn {
+    height: 40px;
+    width: 230px;
+    margin-top: 30px;
+    background-color: #ff7200;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    transition: 0.4s ease-in;
+}
+
+.loginbtn:hover {
+    background-color: #fff;
+    color: #ff7200;
+    cursor: pointer;
+}
+
+.form .link {
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.form a {
+    color:#ff7200;
+    font-size: 16px;
+    text-align: center;  
+}
+
+.logw {
+    color: #fff;
+    margin-top: 2pxpx;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.icon a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.icon ion-icon {
+    color: #fff;
+    font-size: 25px;
+    padding-left: 15px;
+    padding-top: 2px;
+}
